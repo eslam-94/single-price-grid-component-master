@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 60px;
+  font-family: 'Karla', sans-serif;
+  background-color: hsl(204, 43%, 93%);
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: flex-start;
+}
+
+button {
+  width: 295px;
+  height: 50px;
+  margin-top: 30px;
+  border-style: none;
+  border-radius: 5px;
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+}
+
+p {
+  color: hsl(220deg 15% 84%);
+  line-height: 1.6;
+  padding-top: 25px;
+}
+
+h2 {
+  color: white;
+}
+
+.join {
+  width: 295px;
+  max-width: 650px;
+  background-color: white;
+  padding: 30px;
+  margin-top: auto;
+}
+
+.join h2 {
+  padding-top: 25px;
+  color: hsl(71, 73%, 54%);
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: auto;
+}
+
+.subscription {
+  width: 295px;
+  padding: 30px;
+  background-color: hsl(179, 62%, 43%);
+}
+
+.subscription span{
+  color: hsl(220deg 15% 84%);
+  font-weight: lighter;
+  font-size: 15px;
+  align-self: center;
+  margin-left: 15px;
+}
+.subscription h1 {
+  padding-top: 25px;
+  display: inline-flex;
+  color: white;
+}
+
+.why {
+  width: 295px;
+  padding: 30px;
+  background-color: hsl(179, 47%, 52%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: black;
+  padding:5px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width:710px){
+  body{
+    padding: 0;
+    font-size: 17px;
+  }
+  .join{
+    width: 710px;
+  }
+}
